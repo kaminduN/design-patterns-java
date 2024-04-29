@@ -7,6 +7,8 @@ package com.kam.singleton;
 public class Singleton
 {
     private static Singleton instance = null;
+
+    // can we use final here?
     private String value;
 
 

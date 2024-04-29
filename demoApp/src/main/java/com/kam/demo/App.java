@@ -1,8 +1,8 @@
 package com.kam.demo;
 
 import com.kam.demo.singleton.MultiThreadSingleton;
-import com.kam.demo.singleton.SingleThreadSingleton;
-import com.kam.singleton.Singleton;
+//import com.kam.demo.singleton.SingleThreadSingleton;
+
 /**
  * Hello world!
  *
