@@ -26,7 +26,7 @@ public class DemoCompanyApp {
 
     public static void main(String[] args) {
 
-        DemoApp app = new DemoApp(applicationConfiguration("road"));
+        DemoCompanyApp app = new DemoCompanyApp(applicationConfiguration("road"));
 
         app.planDelivery();
 
