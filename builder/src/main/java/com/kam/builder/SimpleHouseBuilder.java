@@ -2,6 +2,16 @@ package com.kam.builder;
 
 public class SimpleHouseBuilder implements HouseBuilder{
 
+    private House house;
+
+    public SimpleHouseBuilder() {
+        this.reset();
+    }
+
+    public void reset() {
+        this.house = new House();
+    }
+
     @Override
     public void buildWalls() {
 
